@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+<body>
+  
+  <button class="burger-btn">
+    <div class="burger-btn__box">
+      <div class="burger-btn__bars"></div>
+    </div>
+  </button>
+
+  <nav class="nav">
+    <div class="nav__items">
+      <a href="#about" class="nav__item">O Nas</a>
+      <a href="#products" class="nav__item">Produkty</a>
+      <a href="#reviews" class="nav__item">Opinie</a>
+      <a href="#contact" class="nav__item">Kontakt</a>
+    </div>
+  </nav>
+
+  <header class="header section">
+    <img src="./img/logo/bread.png" alt="chleb-logo" style="width:30%">
+    <h1 class="header__title">Piekarnia Tradycyjna</h1>
+    <p class="header__text">Lider sprzedaży chleba i ciast w twojej okolicy</p>
+    <a href="#products" class="header__btn">Poznaj naszą ofertę !</a>
+  </header>
+
+  <main class="main">
+
+    <section class="aboutus section-padding section" id="about">
+
+      <div class="wrapper">
+        <h2 class="section-heading">O Nas</h2>
+        <div class="aboutUs__box">
+          <div class="aboutUs__box-img">
+            <img src="./img/about/people.jpg" alt="" class="aboutus__img">
+          </div>
+          <div class="aboutUs__box-text">
+            <p class="aboutUs__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos exercitationem minus ab! Id, maxime sit, eligendi pariatur repellendus iste laboriosam dolore vero adipisci reprehenderit velit iure, vel esse. Eos.
+            Eos sit rem distinctio cupiditate veritatis deleniti sequi cumque, delectus sapiente nihil aliquam asperiores voluptatibus quos ullam accusantium in sint odit similique nesciunt, minus repudiandae dolores recusandae reiciendis. Eveniet, similique!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-img section">
+      <p class="hero-img__title"> Pieczemy od 1964r.</p>
+      <hr>
+      <p class="hero-img__text">Właśnie dla was</p>
+      <hr>
+    </section>
+
+
+    <section class="products section-padding section" id="products">
+      <div class="wrapper">
+        <h2 class="section-heading">Co oferujemy?</h2>
+
+        <div class="products__cards">
+
+
+          <div class="products__card" onClick='void(0)'>
+
+            <div class="products__card-img products__card-img--first">
+              <h3 class="products__card-img-title">Chleb</h3>
+              <p class="products__card-img-info"><i class="fas fa-angle-double-right"></i>Więcej Informacji</p>
+            </div>
+
+              <div class="products__card-info">
+                <h3 class="products__card-info-title">Chleb</h3>
+                <ul class="products__card-info-list">
+                  <li class="products__card-info-list-item">Żytni</li>
+                  <li class="products__card-info-list-item">Orkiszowy</li>
+                  <li class="products__card-info-list-item">Wieloziarnisty</li>
+                  <li class="products__card-info-list-item">Orkiszowy</li>
+                  <li class="products__card-info-list-item">Pszenny</li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="products__card" onClick='void(0)'>
+
+            <div class="products__card-img products__card-img--second">
+              <h3 class="products__card-img-title">Ciasta</h3>
+              <p class="products__card-img-info"><i class="fas fa-angle-double-right"></i>Więcej Informacji</p>
+            </div>
+
+              <div class="products__card-info">
+                <h3 class="products__card-info-title">Ciasta</h3>
+                <ul class="products__card-info-list">
+                  <li class="products__card-info-list-item">Sernik</li>
+                  <li class="products__card-info-list-item">Szarlotka</li>
+                  <li class="products__card-info-list-item">Malinowa Chmurka</li>
+                  <li class="products__card-info-list-item">Snickers</li>
+                  <li class="products__card-info-list-item">Jogurtowy</li>
+                </ul>
+              </div>
+          </div>
+
+          <div class="products__card" onClick='void(0)'>
+
+            <div class="products__card-img products__card-img--third">
+              <h3 class="products__card-img-title">Drożdżówki</h3>
+              <p class="products__card-img-info"><i class="fas fa-angle-double-right"></i>Więcej Informacji</p>
+            </div>
+
+              <div class="products__card-info">
+                <h3 class="products__card-info-title">Drożdżówki</h3>
+                <ul class="products__card-info-list">
+                  <li class="products__card-info-list-item">z Truskawkami</li>
+                  <li class="products__card-info-list-item">z Rabarbarem</li>
+                  <li class="products__card-info-list-item">z Serem</li>
+                  <li class="products__card-info-list-item">z Malinami</li>
+                  <li class="products__card-info-list-item">z Karmelem</li>
+                </ul>
+              </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="hero-img section hero-img-second">
+      <p class="hero-img__title"> Nasze Nagrody</p>
+      <hr>
+      <p class="hero-img__text">Najlepsza Piekrnia w mieście 2015</p>
+      <hr>
+      <p class="hero-img__text">Najlepsza Piekrnia w mieście 2016</p>
+      <hr>
+      <p class="hero-img__text">Najlepsza Piekrnia w województwie 2018</p>
+      <hr>
+      <p class="hero-img__text">3 miejsce w konkursie na najlepszą cukiernię w gminie 2019</p>
+      <hr>
+      <p class="hero-img__text">Tytuł cukiernika roku dla Piotra Kowalskiego 2020</p>
+      <hr>
+    </section>
+
+
+    <section class="reviews section-padding section" id="reviews">
+      <h2 class="section-heading">Opinie</h2>
+      <div class="wrapper">
+        <div class="reviews__boxes">
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Anna.jpg" alt="Anna">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Anna Kowalska</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Arkadiusz.jpg" alt="Arkadiusz">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Arkadiusz M.</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Iwona.jpg" alt="Iwona">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Iwona Jędrzejek</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Joanna.jpg" alt="Joanna">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Joanna Tomaszek</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Kornelia.jpg" alt="Kornelia">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Kornelia</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Marek.jpg" alt="Marek">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Marek P.</strong>
+            </div>
+          </div>
+
+          <div class="reviews__box">
+            <div class="reviews__box-img">
+              <img src="./img/person/Tomasz.jpg" alt="Tomasz">
+            </div>
+            <div class="reviews__box-info">
+              <div class="reviews__box-quote"><i class="fas fa-quote-right"></i></div>
+              <p class="reviews__box-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. !</p>
+              <strong>Tomek Malinowski</strong>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="hero-img section hero-img-third" id="contact">
+      <p class="hero-img__title"> Kontakt</p>
+      <hr>
+      <h3>Adres</h3>
+      <p>Ul.Taka 16<p>
+      <p>Wrocław<p>
+      <hr>
+      <h3>Telefon</h3>
+      <p>800-840-660<p>
+      <hr>
+      <h3>Mail</h3>
+      <p>cukiernia@cukiernia.pl<p>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+   &copy 2021 Piekarnia Tradycyjna
+  </footer>
+
+
+  <script src="./js/js.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="./js/slick.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
